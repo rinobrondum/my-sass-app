@@ -1,0 +1,7 @@
+// _home.scss
+.home {
+  background-color: $warning;
+  @include flex-center;
+  height: 680px;
+  color: rgb(12, 12, 12);
+}

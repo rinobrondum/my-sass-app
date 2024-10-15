@@ -1,0 +1,7 @@
+// _about.scss
+.about {
+    background-color: $danger;
+    @include flex-center;
+    height: 680px;
+    color: white;
+  }

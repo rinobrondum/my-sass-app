@@ -1,0 +1,49 @@
+/*********************************************
+Navigation
+**********************************************/
+.nav {
+  background: white;
+  /* padding y / padding x */
+  padding: 0.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  font-size: 1.8em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-inner-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  /* padding y / padding x */
+  padding: 0 1.25rem;
+}
+
+.site-title img {
+  padding: 0;
+  display: block;
+}
+
+.menu {
+  display: flex;
+  //   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  /* horizontal space between menu items */
+  margin-left: 1rem;
+}
+
+a {
+  color: grey;
+  //   text-decoration: none;
+}
+
+a:hover {
+  color: rgb(44, 252, 2);
+}

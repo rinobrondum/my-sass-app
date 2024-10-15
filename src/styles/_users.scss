@@ -1,0 +1,7 @@
+// _users.scss
+.users {
+    background-color: $danger;
+    @include flex-center;
+    height: 680px;
+    color: white;
+  }

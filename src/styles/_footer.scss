@@ -1,0 +1,7 @@
+// _footer.scss
+.footer {
+    background-color: $secondary;
+    @include flex-center;
+    height: 60px;
+    color: white;
+  }
